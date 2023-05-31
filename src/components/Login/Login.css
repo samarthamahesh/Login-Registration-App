@@ -1,0 +1,36 @@
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+}
+/* 
+.form-control::placeholder {
+    color: white !important;
+} */
+
+@media only screen and (min-width: 992px) {
+    .login-div {
+      height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .login-div {
+      height: 50vh;
+    }
+}
+
+
+.dwg-text::before,
+.dwg-text::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.checkbox {
+  margin-right: 0.5em;
+}
